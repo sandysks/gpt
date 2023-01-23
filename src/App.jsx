@@ -1,5 +1,5 @@
 import React from "react";
-import { CTA, Brand, Navbar } from "./components";
+import { CTA, Brand, Navbar } from "./components/index";
 import {
   Footer,
   Blog,
@@ -7,7 +7,7 @@ import {
   Features,
   WhatGPT3,
   Header,
-} from "./containers";
+} from "./containers/index";
 import "./App.css";
 
 const App = () => {
